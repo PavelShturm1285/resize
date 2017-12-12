@@ -88,6 +88,7 @@ for y in range(height*escala):
             img_dst_g[y][x] = img_g[floor(yy)][floor(xx)]
             img_dst_b[y][x] = img_b[floor(yy)][floor(xx)]
 
+
 for y in ydst:
     for x in xdst:
         r = int(img_dst_r[y][x])
