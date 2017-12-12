@@ -49,12 +49,14 @@ img_dst_r = [ [ 0 for x in range(escala*width) ] for y in range(escala*height) ]
 img_dst_g = [ [ 0 for x in range(escala*width) ] for y in range(escala*height) ]
 img_dst_b = [ [ 0 for x in range(escala*width) ] for y in range(escala*height) ]
 
+
 for y in range(height):
     for x in range(width):
         r, g, b = im.getpixel((x,y))
         img_r[y][x] = r
         img_g[y][x] = g
         img_b[y][x] = b
+
 
 for y in range(height*escala):
     for x in range(width*escala):
