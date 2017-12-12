@@ -1,3 +1,7 @@
+'''
+   Это опять тест гита
+
+'''
 from PIL import Image
 from math import *
 
