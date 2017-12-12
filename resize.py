@@ -1,11 +1,13 @@
 from PIL import Image
 from math import *
 
+
 def interpolacao(x, y, x1, y1, x2, y2, q11, q21, q12, q22):
     fxy1 = (((q21-q11)/(x2-x1))*(x-x1))+q11
     fxy2 = (((q22-q12)/(x2-x1))*(x-x1))+q12
     fxy = ((y2-y)/(y2-y1))*fxy1 + ((y-y1)/(y2-y1))*fxy2
     return fxy
+
 
 caminho = input("Caminho: ")
 imagem = input("Imagem: ")
