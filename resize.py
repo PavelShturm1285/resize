@@ -1,6 +1,6 @@
 '''
    Это опять тест гита
-
+   и снова изменения.
 '''
 from PIL import Image
 from math import *
